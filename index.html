@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Forune Teller</title>
+  </head>
+  <body>
+    <h1>Fortune Teller</h1>
+    <p>Check all that apply and we'll predict your future!</p>
+    <form id="fortune-teller">
+      <div class="form-group">
+
+        <input type="checkbox" name="bad-luck" value="water"> You had no hot water for your shower.<br>
+        <input type="checkbox" name="bad-luck" value="fire">You burned yourself on the stove.<br>
+        <input type="checkbox" name="bad-luck" value="air">Your air conditioner is broken.<br>
+        <input type="checkbox" name="bad-luck" value="earth">There was a landslide.<br>
+
+        <input type="checkbox" name="good-luck" value="water"> You went surfing.<br>
+        <input type="checkbox" name="good-luck" value="fire">You had a barbeque.<br>
+        <input type="checkbox" name="good-luck" value="air">You survived skydiving.<br>
+        <input type="checkbox" name="good-luck" value="earth">You found a diamond in the back yard.<br>
+
+      </div>
+      <p class= "showFortune"> </p>
+  <button type="submit">Submit Survey</button>
+  </form>
